@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(194, 193, 201)
+}
+.sort1{
+    background-color:rgb(111, 136, 211);
+    text-align:center;
+    border-radius:10px;
+    padding:20px;
+    margin:10px;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu1{
+    text-align:center;
+    border-radius:10px;
+    padding:20px;
+    margin:10px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shirt2{
+    background-color:rgb(255, 255, 255);
+    border-radius:10px;
+    padding:20px;
+    margin:10px;
+    width:220px;
+    height:280px;
+    box-shadow:0 4px 8px ;
+}
+.price{
+    font-size:20px;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.btn{
+    background-color:rgb(238, 179, 137);
+    border:none;
+    border-radius:3px;
+    margin-top:10px;
+}
+.picture{
+    display:flex;
+    justify-content:center;
+}
+@media screen and (max-width:500px){
+    .picture{
+        display:flex;
+        flex-direction:column;
+    }
+}
+.picture1{
+     display:flex;
+    justify-content:center;
+}
+.sort{
+    text-align:center;
+    border-radius:5px;
+    padding:10px;
+    margin:5px;
+}
+.sort:hover{
+    background-color:rgb(99, 106, 125)
+}
